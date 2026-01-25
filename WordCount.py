@@ -1,7 +1,6 @@
 import sys
 
-# STEP 1: Just read a file
-# This is the simplest possible version
+
 
 def main():
     # Check if user provided a filename
