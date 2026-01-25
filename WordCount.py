@@ -5,7 +5,7 @@ import sys
 def main():
     # Check if user provided a filename
     if len(sys.argv) != 2:
-        print("Usage: python step1.py <filename>")
+        print("Usage: python WordCount.py <filename>")
         sys.exit(1)
     
     filename = sys.argv[1]
@@ -17,7 +17,15 @@ def main():
     # Show what we got
     print("File content:")
     print(text)
-    print(f"\nTotal characters: {len(text)}")
+
+    words = text.split()
+    count = 0
+    for word in words:
+        if word == "hello":
+            count += 1
+  
+
+    print(f"\nThe word 'hello' appears {count} times")
 
 
 if __name__ == "__main__":
