@@ -1,0 +1,5 @@
+Python is a great programming language. Python is used for web development.
+Web development is popular. Programming is fun and challenging.
+Python programming requires practice. Practice makes perfect.
+Threading in Python helps with concurrent programming. Concurrent programming
+is important for modern applications. Modern applications need threading.
