@@ -166,8 +166,8 @@ def main():
     """Main entry point"""
     # Check command line arguments
     if len(sys.argv) != 3:
-        print("Usage: python word_frequency_counter.py <filename> <num_segments>")
-        print("Example: python word_frequency_counter.py sample.txt 4")
+        print("Usage: python WordCount.py <filename> <num_segments>")
+        print("Example: python WordCount.py sample.txt 4")
         sys.exit(1)
     
     filename = sys.argv[1]
